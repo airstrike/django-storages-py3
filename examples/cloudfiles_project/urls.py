@@ -1,6 +1,6 @@
 from django.conf.urls.defaults import *
 from django.conf import settings
-from photos.models import Photo
+from .photos.models import Photo
 
 photo_dict = {
     'queryset': Photo.objects.all()
